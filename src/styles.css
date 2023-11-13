@@ -1,0 +1,95 @@
+h1 {
+  font-size: 50px;
+  font-weight: 600px;
+  display: block;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  top: 0;
+  left: 205px;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  display: block;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+hr {
+  border: none;
+  color: black;
+  height: 5px;
+  margin: 20px 0;
+}
+
+footer {
+  border-top: 1px solid #f9f7fe;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.weather {
+  border: 1px solid gray;
+  background: rgb(123, 171, 212);
+  border-radius: 15px;
+  padding: 10px;
+  margin: 10px;
+  width: 700px;
+  height: 750px;
+}
+
+.province {
+  font-family: "Poppins", sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.time {
+  color: #9400ff;
+}
+
+.highest {
+  font-weight: bold;
+  color: black;
+}
+
+.col {
+  font-family: "Lato", sans-serif;
+  background: rgb(113, 150, 199);
+  display: block;
+  text-align: center;
+  border: 1px solid gray;
+  border-radius: 15px;
+  padding: 12px;
+  margin: 12px;
+  width: 100px;
+  height: 150px;
+  right: 45px;
+}
+
+.components {
+  position: relative;
+  top: 0;
+  right: 0;
+  padding: 20px;
+}
+
+#searchForm {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#searchInput {
+  text-align: center;
+}
+
+#cityContainer {
+  display: flex;
+}
